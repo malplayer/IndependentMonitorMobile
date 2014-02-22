@@ -139,7 +139,7 @@ var createCo2Chart = function()
 var test= function()
 {
 
-    var url = "http://wwww.google.com";
+    var url = "http://www.google.com";
     $.ajax({
         url: url,
         beforeSend: function(xhr) {
