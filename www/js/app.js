@@ -139,7 +139,7 @@ var createCo2Chart = function()
 var test= function()
 {
 
-    var url = "http://www.google.com";
+    var url = "http://api-m2x.att.com/v1/feeds/1583f80a2c43b4e8d120990d1d9b787c/streams/steps/values";
     $.ajax({
         url: url,
         beforeSend: function(xhr) {
@@ -152,17 +152,6 @@ var test= function()
         },
         method:"GET"
     });
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
@@ -213,7 +202,7 @@ $(".jq_chart").bind("plothover", function (event, pos, item){
 $( document ).on( "mobileinit", function() {
     // Make your jQuery Mobile framework configuration changes here!
 
-    //$.mobile.allowCrossDomainPages = true;
+   // $.mobile.allowCrossDomainPages = true;
 });
 
 $(document).on('pageinit', "#step", function (event) {
