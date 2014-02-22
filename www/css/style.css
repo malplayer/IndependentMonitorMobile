@@ -1,0 +1,47 @@
+	body {
+		font-family: 'Helvetica Neue', helvetica, arial;
+		-webkit-font-smoothing: antialiased;
+	}
+	html, span, div {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-size: 100%;
+		vertical-align: baseline;
+		background: transparent;
+	}
+	.label {
+	font-size: 18px;
+	font-weight: bold;
+	height: 20px;
+	line-height: 18px;
+	max-width: 230px;
+	color: #067ab4 !important;
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+}
+#flotTip, #tooltip {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #627077;
+  display: none;
+  padding: 10px;
+  position: absolute;
+}
+#flotTip span, #tooltip span {
+  color: #627077;
+  display: block;
+  font-weight: bold;
+}
+#flotTip span.value, #tooltip span.value {
+  font-size: 20px;
+  line-height: 24px;
+}
+#flotTip span.timestamp, #tooltip span.timestamp {
+  font-size: 13px;
+}
